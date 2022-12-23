@@ -1,9 +1,9 @@
 <div
     role="radiogroup"
-    aria-labelledby="label"
+    [attr.aria-labelledby]="id"
     class="button-group">
         <label 
-        id="label"
+            [attr.id]="id"
         class="label">
             {{ label }}
         </label>
