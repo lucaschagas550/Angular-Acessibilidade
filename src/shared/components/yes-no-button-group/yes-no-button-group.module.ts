@@ -9,7 +9,7 @@ import { KeyboardManagerModule } from 'src/shared/directives/keyboard-manager/ke
     CommonModule,
     KeyboardManagerModule,
   ],
-  exports: [YesNoButtonGroupComponent],
+  exports: [YesNoButtonGroupComponent]
 })
 
 export class YesNoButtonGroupModule { }
